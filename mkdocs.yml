@@ -98,12 +98,12 @@ plugins:
     # min_search_length: 3
     # indexing: "full"
   - offline
-  - social
+  # - social
   - tags
     # tags_file: user-guide/tags.md"
 
 extra:
-  homepage: https://macacanigra-pl.github.io/mnl/
+  homepage: https://www.mnl-pl.org
   # remove annotation of mkdocs material from footer
   generator: false
   tags:
