@@ -91,14 +91,13 @@ nav:
   - Learn MNL: "http://help.mnl-pl.org/"
   - The MNL: "http://ide.mnl-pl.org/"
   - About: "about.md"
-  # - Survey: "#"
 
 plugins:
   - search
     # min_search_length: 3
     # indexing: "full"
   - offline
-  # - social
+  - social
   - tags
     # tags_file: user-guide/tags.md"
 
