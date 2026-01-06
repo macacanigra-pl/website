@@ -103,7 +103,7 @@ plugins:
     # tags_file: user-guide/tags.md"
 
 extra:
-  homepage: https://mnl-pl.org
+  homepage: "index.md"
   # remove annotation of mkdocs material from footer
   generator: false
   tags:
