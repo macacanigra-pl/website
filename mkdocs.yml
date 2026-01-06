@@ -1,9 +1,9 @@
 site_name: Macaca Nigra Programming Language
-site_url: https://macacanigra-pl.github.io/macacanigra-pl/
+site_url: https://www.mnl-pl.org
 site_description: MNL is a Block-based Functional Programming Language
 repo_name: https://macacanigra-pl.github.io/mnl
 site_author: MNL
-copyright: Copyright &copy; 2020 - 2025 MnL
+copyright: Copyright &copy; 2020 - 2026 MnL
 
 # pip install mkdocs-material
 theme:
@@ -20,7 +20,7 @@ theme:
       default: material/tag
       html: fontawesome/brands/html5
       js: fontawesome/brands/js
-      css:  fontawesome/brands/css3
+      css: fontawesome/brands/css3
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
@@ -72,7 +72,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: white
-      accent: deep cyan 
+      accent: deep cyan
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
@@ -86,41 +86,29 @@ theme:
         icon: material/weather-sunny
         name: Switch to system preference
 
-
 nav:
   - Home: "index.md"
-  - Learn MNL:
-      - Overview: "user-guide/overview.md"
-      - Getting Started: "user-guide/getting-started.md"
-      - Type Inference: "user-guide/type-inference.md"
-      - Type Suggestion: "user-guide/type-suggestion.md"
-      - Compiler: "user-guide/compiler.md"
-      - Program Visualization: "user-guide/program-visualization.md"
-      - Function: "user-guide/function.md"
-      - List: "user-guide/list.md"
-      - Tuple: "user-guide/tuple.md"
-      - Record: "user-guide/record.md"
-      - Higher order Function: "user-guide/hof.md"
-  - The MNL: "https://macacanigra-pl.github.io/mnl/"
+  - Learn MNL: "http://help.mnl-pl.org/"
+  - The MNL: "http://ide.mnl-pl.org/"
   - About: "about.md"
   # - Survey: "#"
 
 plugins:
   - search
-      # min_search_length: 3
-      # indexing: "full"
+    # min_search_length: 3
+    # indexing: "full"
   - offline
   - social
   - tags
-      # tags_file: user-guide/tags.md"
+    # tags_file: user-guide/tags.md"
 
 extra:
   homepage: https://macacanigra-pl.github.io/mnl/
   # remove annotation of mkdocs material from footer
   generator: false
-  tags: 
-    HTML5: html 
-    JavaScript: js 
+  tags:
+    HTML5: html
+    JavaScript: js
     CSS: css
 
 extra_css:
@@ -129,7 +117,7 @@ extra_css:
 markdown_extensions:
   - attr_list
   - admonition
-  - pymdownx.details  
+  - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.magiclink
@@ -150,19 +138,20 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __spand
       use_pygments: true
-      pygments_lang_class: true 
+      pygments_lang_class: true
       linenums_style: pymdownx-inline
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+        # cookie consent
+        # consent:
+        #   title: Cookie consent
+        #   description: >-
+        #     We use cookies to recognize your repeated visits and preferences, as well
+        #     as to measure the effectiveness of our documentation and whether users
+        #     find what they're searching for. With your consent, you're helping us to
+        #     make our documentation better.
 
-  # cookie consent 
-  # consent:
-  #   title: Cookie consent
-  #   description: >- 
-  #     We use cookies to recognize your repeated visits and preferences, as well
-  #     as to measure the effectiveness of our documentation and whether users
-  #     find what they're searching for. With your consent, you're helping us to
-  #     make our documentation better.
+
