@@ -1,4 +1,4 @@
-site_name: Macaca Nigra Programming Language
+site_name: Macaca Nigra Language
 site_url: https://www.mnl-pl.org
 site_description: MNL is a Block-based Functional Programming Language
 repo_name: https://macacanigra-pl.github.io/mnl
@@ -50,12 +50,9 @@ theme:
     - navigation.prune
     # - toc.follow
     # not compatible with navigation.indexes
-    # - toc.integrate
     - search.suggest
     - search.highlight
     - search.share
-    # user can close the announcement
-    # - announce.dismiss
     - content.tabs.link
     - content.code.copy
     - content.code.select
@@ -94,15 +91,12 @@ nav:
 
 plugins:
   - search
-    # min_search_length: 3
-    # indexing: "full"
   - offline
   - social
   - tags
-    # tags_file: user-guide/tags.md"
 
 extra:
-  homepage: https://www.mnl-pl.org
+  homepage: https://mnl-pl.org
   # remove annotation of mkdocs material from footer
   generator: false
   tags:
@@ -144,13 +138,3 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-        # cookie consent
-        # consent:
-        #   title: Cookie consent
-        #   description: >-
-        #     We use cookies to recognize your repeated visits and preferences, as well
-        #     as to measure the effectiveness of our documentation and whether users
-        #     find what they're searching for. With your consent, you're helping us to
-        #     make our documentation better.
-
-
